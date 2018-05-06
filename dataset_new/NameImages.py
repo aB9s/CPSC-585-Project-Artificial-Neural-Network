@@ -1,3 +1,8 @@
+"""
+Author: aB9
+Date:   05/06/18
+"""
+
 import os
 
 def name_images():
@@ -9,7 +14,7 @@ def name_images():
     #Change directory
     os.chdir(with_water_dir)
     all_images = os.listdir(with_water_dir)
-    i =000
+    i =0
 
     for image in all_images:
         print(image)
